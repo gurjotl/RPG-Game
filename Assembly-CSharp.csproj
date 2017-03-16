@@ -49,7 +49,10 @@
      <Compile Include="Assets\Scripts\Arrow.cs" />
      <Compile Include="Assets\Scripts\BatAI.cs" />
      <Compile Include="Assets\Scripts\BatProjectile.cs" />
+     <Compile Include="Assets\Scripts\BossAI.cs" />
+     <Compile Include="Assets\Scripts\BossProjectile.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\Cauldronf.cs" />
      <Compile Include="Assets\Scripts\DialogueController.cs" />
      <Compile Include="Assets\Scripts\DontDestroy.cs" />
      <Compile Include="Assets\Scripts\Door.cs" />
@@ -60,6 +63,8 @@
      <Compile Include="Assets\Scripts\Health.cs" />
      <Compile Include="Assets\Scripts\LookAtCamera.cs" />
      <Compile Include="Assets\Scripts\Menu.cs" />
+     <Compile Include="Assets\Scripts\P1FloorTrigger.cs" />
+     <Compile Include="Assets\Scripts\P2FloorTrigger.cs" />
      <Compile Include="Assets\Scripts\Player1Controller.cs" />
      <Compile Include="Assets\Scripts\Player2Controller.cs" />
      <Compile Include="Assets\Scripts\RatAI.cs" />
