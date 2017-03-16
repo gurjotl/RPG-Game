@@ -18,6 +18,7 @@ public class Player2Controller : MonoBehaviour {
 	float invulnerableTime = 0;
 	private NavMeshAgent nma;
 	float nmaspeed;
+	public bool canmove = true;
 
 	void Update()
 	{
@@ -26,38 +27,38 @@ public class Player2Controller : MonoBehaviour {
 		previousLocation = transform.position;
 		Vector3 s = transform.position - previousLocation;
 
-		if (Input.GetKeyDown(KeyCode.RightControl))
+		if (Input.GetKeyDown(KeyCode.RightShift) || Input.GetKeyDown(KeyCode.RightAlt))
 		{
 			Fire();
 		}
 
 		bool moved = false;
-		if(Input.GetKey(KeyCode.UpArrow))
+		if(Input.GetKey(KeyCode.P))
 		{
 			moveDirection.z = 1;
 			s.z = 90;
 			moved = true;
 		}
-		if(Input.GetKey(KeyCode.DownArrow))
+		if(Input.GetKey(KeyCode.Semicolon))
 		{
 			moveDirection.z = -1;
 			s.z = -90;
 			moved = true;
 		}
-		if(Input.GetKey(KeyCode.LeftArrow))
+		if(Input.GetKey(KeyCode.L))
 		{
 			moveDirection.x = -1;
 			s.x = -90;
 			moved = true;
 		}
-		if(Input.GetKey(KeyCode.RightArrow))
+		if(Input.GetKey(KeyCode.Quote))
 		{
 			moveDirection.x = 1;
 			s.x = 90;
 			moved = true;
 		}
 
-		if (moved) {
+		if (moved && canmove) {
 			Move (s);
 		}
 

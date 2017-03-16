@@ -28,34 +28,8 @@ public class GameManager : MonoBehaviour {
 
 	void Update () 
 	{
-//		if(Input.GetKeyDown(KeyCode.R))
-//		{
-//			Time.timeScale = 1;
-//
-//			SpiderAI[] si = FindObjectsOfType (typeof(SpiderAI)) as SpiderAI[];
-//			foreach (SpiderAI s in si) {
-//				s.isRestarting = true;
-//			}
-//
-//			RatAI[] ri = FindObjectsOfType (typeof(RatAI)) as RatAI[];
-//			int count = 0;
-//			foreach (RatAI r in ri) {
-//				count += 1;
-//				r.isRestarting = true;
-//			}
-//
-//			BatAI[] bi = FindObjectsOfType (typeof(BatAI)) as BatAI[];
-//			foreach (BatAI b in bi) {
-//				b.isRestarting = true;
-//			}
-//
-//			setP1HP (100);
-//			setP2HP (100);
-//			losepanel.gameObject.SetActive (false);
-//			SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
-//		}
+		
 		checkTownStarted ();
-
 		timer += Time.deltaTime;
 		if (LevelUp.IsActive ()) {
 			if ((timer - lactive) > 3) {
@@ -69,6 +43,7 @@ public class GameManager : MonoBehaviour {
 			canvas.gameObject.SetActive (true);
 		}
 	}
+
 	public void endGame(){
 		Time.timeScale = 0;
 		losepanel.gameObject.SetActive (true);

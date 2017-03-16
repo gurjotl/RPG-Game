@@ -18,6 +18,7 @@ public class Player1Controller : MonoBehaviour {
 	float invulnerableTime = 0;
 	private NavMeshAgent nma;
 	float nmaspeed;
+	public bool canmove = true;
 
 	void Update()
 	{
@@ -25,7 +26,7 @@ public class Player1Controller : MonoBehaviour {
 		previousLocation = transform.position;
 		Vector3 s = transform.position - previousLocation;
 
-		if (Input.GetKeyDown(KeyCode.LeftControl))
+		if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.LeftAlt))
 		{
 			Fire();
 		}
@@ -56,7 +57,7 @@ public class Player1Controller : MonoBehaviour {
 			moved = true;
 		}
 
-		if (moved) {
+		if (moved && canmove) {
 			Move (s);
 		}
 

@@ -18,7 +18,7 @@ public class RatsTail : MonoBehaviour {
 		if (Input.GetKey (KeyCode.Space)) {
 			if (entered) {
 				gm.gameObject.GetComponent<XP> ().addXP (deathXP);
-
+				gm.dungeonone = true;
 				SceneManager.LoadSceneAsync ("Town", LoadSceneMode.Single);
 			}
 		}
@@ -33,5 +33,6 @@ public class RatsTail : MonoBehaviour {
 
 	void OnTriggerExit(){
 		entered = false;
+		continuetext.gameObject.SetActive (false);
 	}
 }

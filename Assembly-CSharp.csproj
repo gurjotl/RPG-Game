@@ -50,8 +50,11 @@
      <Compile Include="Assets\Scripts\BatAI.cs" />
      <Compile Include="Assets\Scripts\BatProjectile.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\DialogueController.cs" />
      <Compile Include="Assets\Scripts\DontDestroy.cs" />
      <Compile Include="Assets\Scripts\Door.cs" />
+     <Compile Include="Assets\Scripts\FireBatGiantAI.cs" />
+     <Compile Include="Assets\Scripts\FireBatWings.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\HealingSpot.cs" />
      <Compile Include="Assets\Scripts\Health.cs" />
@@ -65,6 +68,7 @@
      <Compile Include="Assets\Scripts\Restart.cs" />
      <Compile Include="Assets\Scripts\SpiderAI.cs" />
      <Compile Include="Assets\Scripts\SpiderBossAI.cs" />
+     <Compile Include="Assets\Scripts\SpiderEggs.cs" />
      <Compile Include="Assets\Scripts\Trigger.cs" />
      <Compile Include="Assets\Scripts\XP.cs" />
      <Compile Include="Assets\Scripts\XPLoot.cs" />
