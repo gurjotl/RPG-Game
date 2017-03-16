@@ -17,34 +17,13 @@ Player Experience:
 1. PlayerController | Lines #, # | www.
 
 //TODO
--add heal relic things and implement exit in dungeon 2, test and balance it
-
-- add heal relic things in dungeon 2
+-fix spider knockback
 
 -implement d2s exit
 
--test d2
-
--balance d2
-
--make d3 (primarily bats)
-
--change destroy to disable
-
--fix restart bugs^
-  - lighting
-  - lag
-  - button
-
--improve d1
-
--create town
+-implement d3s exit
 
 -make giant boss
-
--hospital
-
--make quest giver
 
 -make boss attack similarly to bat ai
 
@@ -56,11 +35,9 @@ Player Experience:
 
 -implement location on ground to step on for both players
 
--teleport players after dungeon complete
-
 -that triggers event like boss damage(maybe add floor triggers)
 
--allow an option to restart level after death along with a NEW GAME option
+-allow an option to restart level after death along with a NEW GAME option maybe idk
 
 Readme
 
