@@ -16,3 +16,4 @@ We want players to take the role of 2 adventurous archers and venture the world 
 1. BatAI | Lines 7 - 8 | https://docs.unity3d.com/Manual/nav-AgentPatrol.html
 2. BatAI | Lines 63 - 71 | https://docs.unity3d.com/Manual/nav-AgentPatrol.html
 3. Trigger | Lines 13, 26 | https://docs.unity3d.com/ScriptReference/Object.FindObjectsOfType.html
+4. CameraController | Lines 28 - 111 | http://answers.unity3d.com/questions/912621/make-a-camera-to-follow-two-players.html
