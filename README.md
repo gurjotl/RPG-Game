@@ -1,66 +1,19 @@
-# RPG-Game
 Game 3 Submission
 -----------------
 Teammates:
 1. glambsar : 74282470
-2. dalborno : <STUDENT ID NUMBER>
+2. dalborno : 39923079
 
 Repository:
-<LINK TO GIT REPO> - Please add kyle-copeland as a collaberator if your git repo is private.
+https://github.com/gurjotl/RPG-Game
 
 Summary:
-<GAME SUMMARY 1-3 Sentences>
+Red and Green have lost their parents and will do anything to get them back. The town wizard seems like he may be able to help him. Venture through various dungeons in order to get closer to finding your parents.
 
 Player Experience:
-<FEELING THE DESIGNER WANTS THE PLAYER TO EXPERIENCE 1-3 Sentences>
+We want players to take the role of 2 adventurous archers and venture the world around them. We want players to feel the satisfaction of leveling up and grinding if they so desire. We also want players to work together to surpass the difficult obstacles ahead. 
 
-1. PlayerController | Lines #, # | www.
-
-//TODO
--fix spider knockback
-
--implement d2s exit
-
--implement d3s exit
-
--make giant boss
-
--make boss attack similarly to bat ai
-
--make dialogue boxes
-
--add textures
-
--add sounds
-
--implement location on ground to step on for both players
-
--that triggers event like boss damage(maybe add floor triggers)
-
--allow an option to restart level after death along with a NEW GAME option maybe idk
-
-Readme
-
-The feeling the designer wants the player to experience.
-
-⅚ Jesper Juul’s rules
-
-Win State
-
-Loss State
-
-Restart button
-
-Multiplayer
-
-Networked or Local
-
-Groups of 2-4
-
-Expectations scaffold with group size
-
-5 mechanics minimum
-
-Playtest Assignment 2 & 3 (2 players each)
-
-Executable
+1. BatAI | Lines 7 - 8 | https://docs.unity3d.com/Manual/nav-AgentPatrol.html
+2. BatAI | Lines 63 - 71 | https://docs.unity3d.com/Manual/nav-AgentPatrol.html
+3. Trigger | Lines 13, 26 | https://docs.unity3d.com/ScriptReference/Object.FindObjectsOfType.html
+4. CameraController | Lines 28 - 111 | http://answers.unity3d.com/questions/912621/make-a-camera-to-follow-two-players.html
